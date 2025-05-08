@@ -1,0 +1,11 @@
+[project]
+name = "flyte-spark"
+version = "0.1.0"
+description = "Flyte Spark"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "flytekit",
+    "flytekitplugins-spark",
+    "pyspark==3.4.0",
+]
